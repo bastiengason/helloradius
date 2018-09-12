@@ -1,0 +1,41 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// Config
+@import "config/utilities";
+@import "config/variables";
+
+// Components
+// @import "components/buttons";
+@import "components/navbar";
+// @import "components/cards";
+// @import "components/footer";
+
+// Sections
+@import "sections/banner";
+@import "sections/discover";
+// @import "sections/introduction";
+// @import "sections/pictures_grid";
+// @import "sections/purpose";
+// @import "sections/pricing";
+// @import "sections/how";
+// @import "sections/contact";
+
+// Pages
+// @import "pages/about";
+// @import "pages/blog";
+// @import "pages/contact";
+// @import "pages/faq";
+// @import "pages/jobs";
+// @import "pages/pages";
+// @import "pages/terms";
+
+// Plans
+// @import "plans/plan";
+// @import "plans/starter";
+// @import "plans/professional";
+// @import "plans/unlimited";
+
+body {
+  margin: 0;
+}
