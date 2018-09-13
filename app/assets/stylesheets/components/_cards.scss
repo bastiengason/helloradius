@@ -11,17 +11,11 @@
   max-height: 600px;
   background-color: white;
   border-radius: 10px;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 50px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-
-  button {
-    position: absolute;
-    bottom: 50px;
-    margin: 0 auto;
-  }
 }
 
 .pricing-title {
@@ -44,13 +38,53 @@
 
 .pricing-features {
   ul {
-    padding-left: 60px;
+    padding-left: 16%;
     list-style: none;
 
     li {
       font-family: "Avenir", sans-serif;
       font-weight: 500;
-      padding-top: 15px;
+      font-size: 14px;
+      padding-top: 18px;
+
+      svg {
+        margin-right: 15px;
+      }
+    }
+
+    .unchecked-feature {
+      opacity: 0.2;
     }
   }
 }
+
+.pricing-card-footer {
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
