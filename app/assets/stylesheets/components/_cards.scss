@@ -1,3 +1,56 @@
 .card-how {
   text-align: center;
 }
+
+
+// Card Pricing
+.card-pricing {
+  position: relative;
+  max-width: 250px;
+  min-height: 550px;
+  max-height: 600px;
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  button {
+    position: absolute;
+    bottom: 50px;
+    margin: 0 auto;
+  }
+}
+
+.pricing-title {
+  font-family: "Avenir Next", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  top: 60px;
+}
+
+.pricing-amount {
+  font-family: "Avenir Next", sans-serif;
+  font-size: 67px;
+  font-weight: 200;
+  color: $brand-red;
+  opacity: 0.7;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.pricing-features {
+  ul {
+    padding-left: 60px;
+    list-style: none;
+
+    li {
+      font-family: "Avenir", sans-serif;
+      font-weight: 500;
+      padding-top: 15px;
+    }
+  }
+}
