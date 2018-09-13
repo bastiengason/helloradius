@@ -1,3 +1,4 @@
+// Bootstrap
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -8,18 +9,16 @@
 // Components
 // @import "components/buttons";
 @import "components/navbar";
-// @import "components/cards";
-// @import "components/footer";
+@import "components/cards";
+@import "components/footer";
 
 // Sections
 @import "sections/banner";
 @import "sections/discover";
-// @import "sections/introduction";
-// @import "sections/pictures_grid";
-// @import "sections/purpose";
-// @import "sections/pricing";
-// @import "sections/how";
-// @import "sections/contact";
+@import "sections/features";
+@import "sections/how";
+@import "sections/contact";
+@import "sections/pricing";
 
 // Pages
 // @import "pages/about";
