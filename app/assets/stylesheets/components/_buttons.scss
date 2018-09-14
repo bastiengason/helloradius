@@ -28,7 +28,85 @@
   height: 40px !important;
   box-shadow: 0px 6px 20px 0px rgba(235, 73, 84, .3) !important;
 
-   @media screen and (max-width: 330px) {
+  @media screen and (max-width: 330px) {
     margin-left: 0px !important;
   }
 }
+
+
+.primary-btn {
+  background-color: $brand-red;
+  border-radius: 50px;
+  color: white !important;
+  padding: 9px 40px;
+  border: none;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 6px 20px 0px rgba(235, 73, 84, .3);
+
+  &:hover {
+    background-color: rgba(235, 73, 84, .8);
+    transition: ease .2s;
+    text-decoration: none;
+  }
+}
+
+.secondary-btn {
+  background-color: white;
+  color: $brand-red !important;
+  border-radius: 50px;
+  padding: 8px 20px;
+  border: 2px solid $brand-red;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, .9);
+    transition: ease .2s;
+    text-decoration: none;
+    color: white !important;
+    background-color: $brand-red;
+  }
+}
+
+// Button Sizing
+.btn-small {
+
+}
+
+.btn-medium {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.btn-large {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
