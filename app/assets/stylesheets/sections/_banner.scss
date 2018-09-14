@@ -2,4 +2,92 @@
   height: 80vh;
   width: 100%;
   background-color: $gray-light;
+  padding: 15% 11%;
+
+  @media screen and (max-width: 767px) {
+    height: 70vh;
+    padding: 20% 11%;
+  }
+}
+
+.banner-title {
+  font-family: "Avenir";
+  font-weight: 900;
+  line-height: 1.4em;
+  letter-spacing: 0.03em;
+
+  @media screen and (max-width: 767px) {
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: 1.2em;
+
+    br {
+      display: none;
+    }
+  }
+
+  mark {
+    background: transparent;
+    position: relative;
+    padding: 0;
+    z-index: 0;
+  }
+
+  mark:before {
+    background-color: #FF9B9B;
+    content: " ";
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    bottom: 0;
+  }
+
+  @media  (max-width: 767px) {
+    mark:before {
+      height: 24px;
+      left: 4px;
+      right: -10px;
+      bottom: 4px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .banner-title mark:before {
+      height: 14px;
+      left: 4px;
+      right: -9px;
+      bottom: 4px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .banner-title mark:before {
+      height: 25px;
+      left: 9px;
+      right: -9px;
+      bottom: 4px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    mark:before {
+      height: 25px;
+      left: 9px;
+      right: -9px;
+      bottom: 4px;
+    }
+  }
+}
+
+.banner-desc {
+  font-family: "Avenir";
+  font-size: 20px;
+  font-weight: 300;
+  color: #868686;
+  margin-top: 10px;
+  margin-bottom: 40px;
+
+  @media screen and (max-width: 330px) {
+    font-size: 15px;
+  }
 }
