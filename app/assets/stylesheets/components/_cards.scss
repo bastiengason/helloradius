@@ -1,9 +1,91 @@
+// Card How
 .card-how {
   text-align: center;
 }
 
+////////////////////////////////////////////////////////////////// Card discover
+.card-discover {
+  background-color: white;
+  font-family: "Avenir";
+  position: relative;
+  padding: 30px;
+  min-height: 350px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 20px 0px rgba(160, 160, 160, .3);
+  // text-align: center;
+  margin-top: -100px;
 
-// Card Pricing
+  img {
+    position: absolute;
+    top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .discover-title {
+    position: absolute;
+    top: 130px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a {
+    position: absolute;
+    bottom: 30px;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+}
+
+.discover-image {
+  width: 70px;
+  height: auto;
+  position: absolute;
+  top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.discover-desc {
+  position: absolute;
+  top: 170px;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #868686;
+  font-weight: 200;
+}
+
+/////////////////////////////////////////////////////////////////// Card Feature
+.card-feature {
+  background-color: white;
+  position: relative;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 20px 0px rgba(160, 160, 160, .3);
+  margin-top: 50px;
+}
+
+.feature-icon {
+  position: absolute;
+  left: 0;
+  top: 45px;
+  height: 110px;
+}
+
+
+/////////////////////////////////////////////////////////////////// Card Pricing
 .card-pricing {
   position: relative;
   max-width: 250px;

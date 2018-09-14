@@ -1,4 +1,5 @@
 #banner-home {
+  position: relative;
   height: 80vh;
   width: 100%;
   background-color: $gray-light;
@@ -8,6 +9,14 @@
     height: 70vh;
     padding: 20% 11%;
   }
+}
+
+.banner-bg {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  bottom: 11%;
+  right: 11%;
 }
 
 .banner-title {
