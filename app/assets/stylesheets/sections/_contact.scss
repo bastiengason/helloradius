@@ -1,5 +1,13 @@
 #contact {
   width: 100%;
-  height: 350px;
+  min-height: 350px;
+  margin-top: -75px;
+  padding: 120px 0 100px;
   background-color: $gray-light;
+  font-family: "Avenir";
 }
+
+.contact-title {
+  font-size: 34px;
+}
+

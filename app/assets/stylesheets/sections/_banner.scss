@@ -6,8 +6,8 @@
   padding: 15% 11%;
 
   @media screen and (max-width: 767px) {
-    height: 70vh;
-    padding: 20% 11%;
+    height: 80vh;
+    padding: 25% 11%;
   }
 }
 
@@ -17,6 +17,11 @@
   height: auto;
   bottom: 11%;
   right: 11%;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
 }
 
 .banner-title {
