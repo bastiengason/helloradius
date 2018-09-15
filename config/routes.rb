@@ -13,6 +13,6 @@ Rails.application.routes.draw do
   # Plans routes
   get '/plan', to: 'plans#plan'
   get '/plan/starter', to: 'plans#starter'
-  get '/plan/professional', to: 'plans#professional'
+  get '/plan/pro', to: 'plans#pro'
   get '/plan/unlimited', to: 'plans#unlimited'
 end
