@@ -87,6 +87,27 @@
 }
 
 
+ // utility
+
+.secondary-no-bg {
+
+  color: $brand-red !important;
+  border-radius: 50px;
+  padding: 8px 20px;
+  border: 2px solid $brand-red;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, .9);
+    transition: ease .2s;
+    text-decoration: none;
+    color: white !important;
+    background-color: $brand-red;
+  }
+  background-color: none !important;
+}
 
 
 

@@ -98,19 +98,61 @@
 .card-feature {
   background-color: white;
   position: relative;
-  height: 200px;
+  font-family: "Avenir";
+  height: 230px;
   border-radius: 10px;
   box-shadow: 0px 6px 20px 0px rgba(160, 160, 160, .3);
   margin-top: 50px;
+
+//   .feature-desc {
+//   position: absolute;
+//   left: 20%;
+//   font-size: 15px;
+//   font-weight: 300;
+//   top: 70px;
+//   width: 60%;
+// }
 }
 
 .feature-icon {
   position: absolute;
   left: 0;
-  top: 45px;
+  top: 60px;
   height: 110px;
 }
 
+.feature-title {
+  position: absolute;
+  left: 20%;
+  font-size: 16px;
+  font-weight: 600;
+  top: 45px;
+}
+
+.feature-desc {
+  position: absolute;
+  left: 20%;
+  color: $gray-medium;
+  top: 80px;
+  width: 73%;
+}
+
+.feature-cta {
+  position: absolute;
+  left: 20%;
+  bottom: 15%;
+  color: $brand-red;
+
+  &:hover {
+    text-decoration: none;
+    font-weight: 500;
+    color: $brand-red;
+  }
+}
+
+.icon-2 {
+  margin-left: -18px;
+}
 
 /////////////////////////////////////////////////////////////////// Card Pricing
 .card-pricing {
