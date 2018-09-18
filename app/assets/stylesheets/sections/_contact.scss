@@ -9,6 +9,9 @@
 
 .contact-title {
   font-size: 34px;
-  font-weight: 400;
+  font-weight: 300 !important;
 }
 
+.red-link {
+  color: $brand-red !important;
+}
