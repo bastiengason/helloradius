@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get '/faq', to: 'pages#faq'
   get '/jobs', to: 'pages#jobs'
   get '/terms', to: 'pages#terms'
+  get '/thankyou', to: 'pages#thankyou'
 
   # Plans routes
   get '/plan', to: 'plans#plan'
