@@ -39,12 +39,28 @@
     </div> <!-- End .nav-element -->
   </div>
 </div>
-<div class="navbar-recovr-mobile hidden-md hidden-lg">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12">
 
-      </div>
-    </div>
+<!-- Mobile Navbar -->
+<div class="navbar-mobile hidden-md hidden-lg">
+  <!-- Logo Helloradius -->
+  <%= image_tag("logo-helloradius.svg", class: "logo-mobile") %>
+
+  <div class="dropdown">
+    <!-- Dropdown Icon -->
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+      data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- List -->
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li><a href="#discover">Discover</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how">How</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="/plan">Get Started</a></li>
+    </ul>
   </div>
 </div>
