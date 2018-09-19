@@ -16,4 +16,50 @@
   font-size: 18px;
   line-height: 1.5em;
   margin-bottom: 30px;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (max-width: 767px) {
+    width: 90%;
+  }
+}
+
+
+.feature-icon {
+  position: absolute;
+  opacity: 0.4;
+
+  @media screen and (max-width: 767px) {
+    opacity: 0.2;
+  }
+}
+
+.icon-1 {
+  top: 60px;
+  height: 110px;
+}
+
+.icon-2 {
+  top: 40px;
+  left: -9px;
+  height: 160px;
+}
+
+.icon-3 {
+  top: 30px;
+  left: -28px;
+  height: 180px;
+}
+
+.icon-4 {
+  height: 110px;
+}
+
+.icon-5 {
+  height: 110px;
+}
+
+.icon-6 {
+  height: 110px;
 }

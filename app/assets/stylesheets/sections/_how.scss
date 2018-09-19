@@ -17,3 +17,12 @@
 .illu-large {
   height: 250px;
 }
+
+.card-how {
+  @media screen and (max-width: 767px) {
+    h4 {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  }
+}
