@@ -1,9 +1,7 @@
 #faq {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
   h1 {
     font-family: "Avenir";
@@ -15,5 +13,37 @@
     font-family: "Avenir";
     font-size: 22px;
     color: $gray-medium;
+  }
+}
+
+
+
+.faq-questions {
+  padding-top: 50px;
+}
+
+.question {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-bottom: solid 1px RGBA(150, 150, 150, .2);
+}
+
+.question-header {
+  font-family: "Avenir";
+
+  h5 {
+    button {
+      font-size: 600 !important;
+      font-size: 20px !important;
+      color: $gray-dark !important;
+      text-decoration: none;
+      width: 100%;
+      text-align: left;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
   }
 }
