@@ -1,9 +1,7 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
-  # app/controllers/application_controller.rb
-
-  def default_url_options
-    { host: ENV['HOST'] || 'localhost:3001' }
-  end
+  # def default_url_options
+  #   { host: ENV['HOST'] || 'localhost:3001' }
+  # end
 end
