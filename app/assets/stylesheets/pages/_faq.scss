@@ -33,12 +33,13 @@
 
   h5 {
     button {
-      font-size: 600 !important;
+      font-weight: 600 !important;
       font-size: 20px !important;
       color: $gray-dark !important;
       text-decoration: none;
       width: 100%;
       text-align: left;
+
 
       @media screen and (max-width: 767px) {
         font-size: 16px !important;
@@ -48,6 +49,33 @@
         text-decoration: none;
       }
     }
-
   }
 }
+
+.faq-answer {
+  width: 100%;
+  padding-left: 15px;
+  font-family: "Avenir";
+  margin-bottom: 20px;
+  padding-top: 10px;
+  font-size: 15px !important;
+  line-height: 1.7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
