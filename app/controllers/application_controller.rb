@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   # app/controllers/application_controller.rb
 
   def default_url_options
-    { host: ENV['HOST'] || 'localhost:3000' }
+    { host: ENV['HOST'] || 'localhost:3001' }
   end
 end
