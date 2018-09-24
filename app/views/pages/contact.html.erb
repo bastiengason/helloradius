@@ -1,8 +1,11 @@
 <%= render 'shared/navbar' %>
 
-<div id="blog">
-  <h1>Under Construction</h1>
-  <h3>This section is coming really soon!</h3>
+<div id="contact">
+  <form class="contact-form" method="POST" action="https://formspree.io/bastien@helloradius.co">
+    <input class="form-input" type="email" name="email" placeholder="Your email">
+    <textarea class="form-input mt30" name="message" placeholder="Your message"></textarea>
+    <button class="primary-btn form-btn" type="submit">Send</button>
+  </form>
 </div>
 
 <%= render 'shared/footer' %>

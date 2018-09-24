@@ -11,6 +11,7 @@
 @import "components/navbar";
 @import "components/cards";
 @import "components/footer";
+@import "components/forms";
 
 // Sections
 @import "sections/banner";
@@ -24,7 +25,7 @@
 // Pages
 @import "pages/about";
 @import "pages/blog";
-// @import "pages/contact";
+@import "pages/contact";
 @import "pages/faq";
 @import "pages/jobs";
 @import "pages/thankyou";
