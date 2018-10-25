@@ -27,6 +27,5 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 
 
 $( document ).ready(function() {
-  $('[data-toggle="tooltip"]').tooltip({'placement': 'top'});
-  $('.feature').tooltip('show')
+  $('[data-toggle=tooltip]').tooltip({'placement': 'top'});
 });
