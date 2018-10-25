@@ -119,8 +119,8 @@
   margin-left: 83%;
 }
 
-.open > .dropdown-menu {
-  margin-left: -115px;
+.show > .dropdown-menu {
+  margin-left: -115px !important;
 }
 
 .btn-default {
@@ -140,7 +140,6 @@
   white-space: nowrap;
   font-size: 17px;
   font-family: "Avenir";
-
 }
 
 

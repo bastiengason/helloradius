@@ -23,3 +23,10 @@ $(document).on('click', 'a[href^="#"]', function (event) {
       scrollTop: $($.attr(this, 'href')).offset().top
   }, 500);
 });
+
+
+
+$( document ).ready(function() {
+  $('[data-toggle="tooltip"]').tooltip({'placement': 'top'});
+  $('.feature').tooltip('show')
+});
