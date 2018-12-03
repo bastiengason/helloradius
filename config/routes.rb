@@ -11,6 +11,9 @@ Rails.application.routes.draw do
   get '/terms', to: 'pages#terms'
   get '/thankyou', to: 'pages#thankyou'
 
+  # Service routes
+  get '/services/newsletter', to: 'services#newsletter'
+
   # Plans routes
   get '/plan', to: 'plans#plan'
   get '/plan/starter', to: 'plans#starter'
