@@ -8,8 +8,7 @@
   top: 0;
   width: 100%;
   z-index: 10;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  height: 85px;
   padding-left: 10%;
   padding-right: 10%;
 
@@ -74,8 +73,9 @@
   font-weight: 500;
   letter-spacing: 1px;
   margin-left: 45px;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 14px;
+  margin-bottom: 11px;
+  height: 31px;
 }
 
 
@@ -91,11 +91,20 @@
 .helloradius-logo {
   padding-left: 13px;
   height: 15px;
-  margin-top: -15px;
+  margin-top: -5px;
 }
 
 .productile-logo-small {
   height: 20px;
+}
+
+div.dropdown:hover > .dropdown-menu {
+  display: block;
+  padding-top: 2px;
+  margin-left: -50%;
+  margin-top: -2px;
+  box-shadow: 0px 15px 30px -5px rgba(0, 0, 0, 0.15);
+  border: 0px;
 }
 
 ////////////////////////////////////////////////////////////////// Dropdown Menu
@@ -115,11 +124,11 @@
   height: 15px;
 }
 
-.dropdown {
+.dropdown-1 {
   margin-left: 83%;
 }
 
-.show > .dropdown-menu {
+.show > .dropdown-menu-mobile {
   margin-left: -115px !important;
 }
 
@@ -130,7 +139,7 @@
   font-size: 25px;
 }
 
-.dropdown-menu > li > a {
+.dropdown-menu-mobile > li > a {
   display: block;
   padding: 9px 25px;
   clear: both;

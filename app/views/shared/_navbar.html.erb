@@ -28,10 +28,15 @@
       </a>
     </div> <!-- End .nav-element -->
 
-    <div class="nav-element">
-      <a href="/#contact">
-        Contact
+    <div class="nav-element dropdown">
+      <a href="/services" class="dropdown-toggle" >
+        Services <b class="caret"></b>
       </a>
+
+      <ul class="dropdown-menu">
+        <li><a href="#">Account Creation</a></li>
+        <li><a href="#">Newsletter</a></li>
+      </ul>
     </div> <!-- End .nav-element -->
 
     <div class="nav-element">
@@ -45,7 +50,7 @@
   <!-- Logo Helloradius -->
   <%= image_tag("logo-helloradius.svg", class: "logo-mobile") %>
 
-  <div class="dropdown">
+  <div class="dropdown-1">
     <!-- Dropdown Icon -->
     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
       data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -53,12 +58,12 @@
     </button>
 
     <!-- List -->
-    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <ul class="dropdown-menu-mobile" aria-labelledby="dropdownMenu1">
       <li><a href="#discover">Discover</a></li>
       <li><a href="#features">Features</a></li>
       <li><a href="#how">How</a></li>
       <li><a href="#pricing">Pricing</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="/services">Services</a></li>
       <li role="separator" class="divider"></li>
       <li><a href="/plan">Get Started</a></li>
     </ul>
