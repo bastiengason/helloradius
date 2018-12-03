@@ -13,4 +13,7 @@ class PagesController < ApplicationController
 
   def terms
   end
+
+  def services
+  end
 end

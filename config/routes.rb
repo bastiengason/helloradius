@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get '/thankyou', to: 'pages#thankyou'
 
   # Service routes
+  get '/services', to: 'pages#services'
   get '/services/newsletter', to: 'services#newsletter'
   get '/services/account-creation', to: 'services#accountcreation'
 
