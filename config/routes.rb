@@ -13,6 +13,7 @@ Rails.application.routes.draw do
 
   # Service routes
   get '/services/newsletter', to: 'services#newsletter'
+  get '/services/account-creation', to: 'services#accountcreation'
 
   # Plans routes
   get '/plan', to: 'plans#plan'
