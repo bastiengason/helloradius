@@ -101,8 +101,8 @@
 div.dropdown:hover > .dropdown-menu {
   display: block;
   padding-top: 2px;
-  margin-left: -50%;
-  margin-top: -2px;
+  margin-left: -170%;
+  margin-top: 2px;
   box-shadow: 0px 15px 30px -5px rgba(0, 0, 0, 0.2);
   border: 0px;
   padding-top: 8px;
@@ -110,8 +110,9 @@ div.dropdown:hover > .dropdown-menu {
 
   li {
     a {
-      padding-top: 8px;
-      padding-bottom: 8px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: #545454;
     }
   }
 }
@@ -163,16 +164,18 @@ div.dropdown:hover > .dropdown-menu {
   font-size: 25px;
 }
 
-.dropdown-menu-mobile > li > a {
-  display: block;
-  padding: 9px 25px;
-  clear: both;
-  font-weight: normal;
-  line-height: 1.428571429;
-  color: #333333;
-  white-space: nowrap;
-  font-size: 17px;
-  font-family: "Avenir";
+.dropdown-menu > li > a {
+  @media screen and (max-width: 781px) {
+    display: block;
+    padding: 9px 25px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+    color: #545454;
+    white-space: nowrap;
+    font-size: 17px;
+    font-family: "Avenir";
+  }
 }
 
 
